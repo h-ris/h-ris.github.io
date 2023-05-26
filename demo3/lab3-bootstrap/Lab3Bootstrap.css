@@ -1,0 +1,98 @@
+/*  Name: Huixin Xu
+    Student number: 041062218
+    Date modified: Feb 7, 2023
+    Section: CST8285 313
+    Lab: Lab 3
+    File: Lab3Bootstrap.css
+    Lab objective: Lab 3 Bootstrap css. */
+
+
+        * {
+        background-color: #C9C0BB;
+        color: #582644;
+        }
+
+        #toptitle{
+        margin-bottom: 0;
+        border-radius: 0;
+        padding: 20px;
+        }
+
+        /* Remove the navbar's default margin-bottom and rounded borders */ 
+        .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+        }
+
+        #myNavbar>ul>li {
+        justify-content: center;
+        display: flex;
+        border-width: 2px;
+        border-color: #88607a;
+        border-radius: 30px;
+        margin: 13px;
+        background-color: #675761;
+        font-size: 13px;
+        }
+        
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {height: 450px}
+        
+        /* Set gray background color and 100% height */
+        .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+        }
+        
+        /* Set black background color, white text and some padding */
+        footer {
+        font-size: medium;
+        background-color: #B6B6B4;
+        color: white;
+        padding: 25px;
+        }
+
+        footer nav {
+        margin-bottom: 20px;
+        background-color: #B6B6B4;
+        }
+
+        footer p{
+        font-style: italic;
+        background-color: #B6B6B4;
+        }
+
+        a:hover{
+        color: #f1f1f1;
+        }
+        
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+        .sidenav {
+            height: auto;
+            padding: 15px;
+        }
+        .row.content {height:auto;} 
+        }
+
+        #waterfall{
+        float: inline-end;
+        max-width: 25%;
+        margin-top: 500px;
+        }
+
+        p.ulist{
+        padding-left: 40px;
+        padding-top: 10px;
+        }
+
+        ol{
+        padding-left: 70px;
+        }
+
+        img+p{
+        padding-top: 20px;
+        margin-left: 50px;
+        margin-right: 30px;
+        }

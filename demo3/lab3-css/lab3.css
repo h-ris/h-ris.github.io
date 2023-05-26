@@ -1,0 +1,118 @@
+/*  Name: Huixin Xu
+    Student number: 041062218
+    Date modified: Feb 7, 2023
+    Section: CST8285 313
+    Lab: Lab 3
+    File: lab3.css
+    Lab objective: Lab 3 using css. */
+
+
+    *{
+        background-color: #DDD78D;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+
+    }
+
+    body{
+        background-color: #DDD78D;
+    }
+
+    header, footer{
+        background-color: #60594D;
+        color: #93A29B;
+        border-style: solid;
+        border-width: 4px;
+        border-color: black;
+        padding: 10px;
+        margin: 15px;
+    }
+
+    header h1{
+        background-color: #60594D;
+        color: #93A29B;
+        margin: 30px;
+    }
+
+    nav{
+        background-color: #60594D;
+        color: #93A29B;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    nav>a{
+        font-size: 12px;
+        background-color: white;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+        padding: 8px;
+        margin:20px;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        font-size: 12pt;
+    }
+
+    .general{
+        font-size: 14pt;
+        justify-content: left;
+        margin: 10px;
+    }
+
+    #quotation{
+        text-align: center;
+        background-color: #DCBF85;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    ul>li{
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    p.ulist{
+        padding-left: 50px;
+    }
+
+    ol{
+        padding-left: 100px;
+    }
+
+    #waterfall{
+        float: right;
+        max-width: 25%;
+        margin: 10px;
+    }
+
+
+    a{
+        background-color: #60594D;
+        color: #93A29B;
+        text-decoration: none;
+    }
+    
+    a:hover{
+        background-color: #8B635C;
+        color: #fff;
+    }
+    
+    footer>p{
+        background-color: #60594D;
+        color: #93A29B;
+        font-size: 12pt;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #authorline{
+        text-align: right;
+        font-style: italic;
+        font-size: 10pt;
+        margin-top: 20px;
+    }
